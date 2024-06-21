@@ -1,0 +1,1289 @@
+.leftDiv {
+  display: none;
+}
+.leftDiv .ContentMain .banner {
+  width: 100%;
+  background: url("../image/banner.png") no-repeat;
+  background-size: 100% 100%;
+  height: 90px;
+  padding-top: 58px;
+}
+.leftDiv .ContentMain .banner p {
+  color: #2b2c46;
+  font-size: 12px;
+  text-align: center;
+}
+.leftDiv .ContentMain .submit-form {
+  background-color: #fff;
+  background-image: url("../image/ct.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-top: 20px;
+  padding: 30px 40px 105px 40px;
+  border-radius: 10px;
+  position: relative;
+}
+.leftDiv .ContentMain .submit-form .form-group {
+  font-size: 0;
+  margin-bottom: 32px;
+}
+.leftDiv .ContentMain .submit-form .form-group label {
+  color: #02042c;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 4px;
+  position: relative;
+  padding-left: 22px;
+  width: 72px;
+  vertical-align: middle;
+  margin-top: 7px;
+}
+.leftDiv .ContentMain .submit-form .form-group label:after {
+  content: '';
+  position: absolute;
+  background: #0670fb;
+  width: 2px;
+  height: 80%;
+  left: 0;
+  top: 10%;
+}
+.leftDiv .ContentMain .submit-form .form-group .way-content {
+  display: inline-block;
+  font-size: 14px;
+  color: #5e6582;
+  vertical-align: middle;
+}
+.leftDiv .ContentMain .submit-form .form-group .way-content li {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 36px;
+}
+.leftDiv .ContentMain .submit-form .form-group .way-content li i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-right: 6px;
+  background: url("../../../../../../../wanfang/images/radio.png") no-repeat;
+  background-size: 100% 100%;
+}
+.leftDiv .ContentMain .submit-form .form-group .way-content li.active i {
+  background: url("../image/checked.png") no-repeat;
+  background-size: 100% 100%;
+}
+.leftDiv .ContentMain .submit-form .form-group p.word-prompt {
+  display: inline-block;
+  font-size: 12px;
+  color: #b7bccb;
+  vertical-align: middle;
+  line-height: normal;
+  float: right;
+}
+.leftDiv .ContentMain .submit-form .form-group p.word-prompt .text-num {
+  color: #ff001e;
+  margin: 0 4px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower {
+  display: inline-block;
+  position: relative;
+  width: calc(100% - 72px);
+  height: 44px;
+  vertical-align: middle;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .title-num,
+.leftDiv .ContentMain .submit-form .form-group .rower .author-num {
+  position: absolute;
+  font-size: 14px;
+  color: #425382;
+  right: 12px;
+  top: 12.5px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .title-num .titleNumber,
+.leftDiv .ContentMain .submit-form .form-group .rower .author-num .titleNumber,
+.leftDiv .ContentMain .submit-form .form-group .rower .title-num .authorNumber,
+.leftDiv .ContentMain .submit-form .form-group .rower .author-num .authorNumber {
+  color: #b7bccb;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower.content-block {
+  height: 100%;
+  margin-left: 72px;
+  margin-top: 4px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower input.form-control {
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: none;
+  border-color: #e1e8ef;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower input.form-control:focus {
+  border-color: #0d81fc;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower input.form-control#title {
+  padding-right: 72px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower #err-title,
+.leftDiv .ContentMain .submit-form .form-group .rower #err-author {
+  position: absolute;
+  font-size: 12px;
+  color: #f56c6c;
+  right: 55px;
+  top: 14px;
+  display: none;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower #err-title img,
+.leftDiv .ContentMain .submit-form .form-group .rower #err-author img {
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-right: 4px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box {
+  width: 100%;
+  height: 264px;
+  border-radius: 10px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .text-box {
+  width: 100%;
+  height: 100%;
+  padding: 14px;
+  border: 1px solid #e1e8ef;
+  border-radius: 10px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .text-box textarea#content-text {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  outline: none;
+  font-size: 14px;
+  border: none;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .text-box.active {
+  border-color: #0d81fc;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .text-box.error {
+  border-color: #f56c6c;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .file-box {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e1e8ef;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .file-box.error {
+  border-color: #f56c6c;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .file-box #content-file {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .file-box .upload-block {
+  margin-top: 70px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .file-box .upload-block .p1 {
+  font-size: 14px;
+  color: #9099b3;
+  margin-top: 20px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .file-box .upload-block .p1 .redText {
+  color: #ff001e;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .file-box .upload-block .p1 .blueText {
+  color: #0d81fc;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .file-box .upload-block .p2 {
+  color: #b7bccb;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .file-box .file-block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: white;
+  border-radius: 10px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .file-box .file-block .drop-body {
+  padding-top: 70px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .file-box .file-block .drop-body .upload-finish {
+  color: #c0c0c0;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .file-box .file-block img.delete-file {
+  position: absolute;
+  left: 52%;
+  top: 70px;
+  cursor: pointer;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .content-box .file-box .file-block .fileName {
+  font-size: 14px;
+  color: #9099b3;
+  margin-top: 14px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .submit-block {
+  margin-top: 24px;
+  height: 46px;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .submit-block .submit-btn {
+  width: 160px;
+  height: 46px;
+  background: #108df9;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  float: left;
+  transition: all 0.3s;
+  outline: none;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .submit-block .submit-btn:hover {
+  box-shadow: 0 0 6px 0 #108df9;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .submit-block .unit-price {
+  color: #5e6582;
+  font-size: 12px;
+  float: right;
+  display: none;
+}
+.leftDiv .ContentMain .submit-form .form-group .rower .submit-block .unit-price span {
+  color: #ff001e;
+}
+.leftDiv .ContentMain .submit-form .form-group.has-error #err-title,
+.leftDiv .ContentMain .submit-form .form-group.has-error #err-author {
+  display: block;
+}
+.leftDiv .ContentMain .submit-form .form-group.has-error input#title,
+.leftDiv .ContentMain .submit-form .form-group.has-error input#author {
+  border-color: #f56c6c;
+}
+.leftDiv .ContentMain .submit-form .note {
+  padding-left: 72px;
+}
+.leftDiv .ContentMain .submit-form .note .p1 {
+  color: #5e6582;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+.leftDiv .ContentMain .submit-form .note .p2 {
+  color: #9099b3;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.leftDiv .ContentMain .submit-form .note .p2 img {
+  vertical-align: middle;
+  margin-top: -3px;
+  margin-left: 12px;
+  margin-right: 5px;
+}
+.leftDiv .ContentMain .submit-form .note .p2 span {
+  color: #616161;
+}
+.leftDiv .ContentMain .submit-form .note .p2.redText {
+  color: #f56c6c;
+}
+.progress_upload {
+  padding-right: 2px;
+  position: relative;
+  width: 300px;
+  height: 14px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
+.progress_upload > .bar {
+  width: 0%;
+  position: relative;
+  float: left;
+  height: 14px;
+  line-height: 14px;
+  text-align: right;
+  background: #2170d6;
+  border-color: #bfbfbf #b3b3b3 #9e9e9e;
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(top, #609ff1 0%, #2188ed 70%, #2170d6 100%);
+  background-image: -moz-linear-gradient(top, #609ff1 0%, #2188ed 70%, #2170d6 100%);
+  background-image: -o-linear-gradient(top, #609ff1 0%, #2188ed 70%, #2170d6 100%);
+  background-image: linear-gradient(to bottom, #609ff1 0%, #2188ed 70%, #2170d6 100%);
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: width 0.8s;
+  animation: shining 0.8s alternate infinite;
+}
+.progress_upload .progress-num {
+  color: #2170d6;
+  position: absolute;
+  top: -3px;
+  right: -70px;
+}
+.check-order {
+  width: 100%;
+  background: #fff;
+  padding: 28px 48px 2px;
+  border-radius: 6px;
+}
+.check-order .head {
+  border-bottom: 1px solid #f1f4f8;
+  padding-bottom: 20px;
+}
+.check-order .head img {
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: -1px;
+}
+.check-order .head .label-t {
+  font-size: 16px;
+  color: #02042c;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-top: -1px;
+}
+.check-order .head .order-text {
+  color: #b7bccb;
+  font-size: 14px;
+  vertical-align: middle;
+  margin-left: 40px;
+  position: relative;
+}
+.check-order .head .order-text:after {
+  content: '';
+  position: absolute;
+  height: 16px;
+  width: 2px;
+  background: #dadde4;
+  top: 2px;
+  left: -22px;
+}
+.check-order .head .order-oid {
+  font-size: 14px;
+  color: #5e6582;
+  margin-left: 2px;
+  vertical-align: middle;
+}
+.check-order .order-info {
+  margin-top: 20px;
+}
+.check-order .order-info .orderInformation thead {
+  background: #f1f4f8;
+  height: 40px;
+  font-size: 14px;
+  color: #292b44;
+  font-weight: normal;
+}
+.check-order .order-info .orderInformation thead tr th {
+  border-bottom: none;
+  font-weight: normal;
+}
+.check-order .order-info .orderInformation thead tr th.title {
+  padding-left: 20px;
+}
+.check-order .order-info .orderInformation thead tr th.center {
+  text-align: center;
+}
+.check-order .order-info .orderInformation tbody.tbody th {
+  font-size: 14px;
+  color: #292b44;
+  font-weight: normal;
+  height: 40px;
+  line-height: 40px;
+  border-top: none;
+}
+.check-order .order-info .orderInformation tbody.tbody th.title {
+  padding-left: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 400px;
+}
+.check-order .order-info .orderInformation tbody.tbody th.center {
+  text-align: center;
+}
+.check-order .order-info .orderInformation tbody.tbody th.redText {
+  color: #ff001e;
+}
+.check-order .order-info .orderInformation tbody.tbody th.order-author {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100px;
+}
+.payBox {
+  background: #ffffff;
+  background-image: url("../image/ct.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding: 30px 40px;
+  margin-top: 20px;
+  border-radius: 6px;
+  min-height: 736px;
+}
+.payBox .coupon-block {
+  border-bottom: 1px dashed #dce3ed;
+  padding-bottom: 15px;
+}
+.payBox .coupon-block .head img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.payBox .coupon-block .head .label-t {
+  font-size: 16px;
+  color: #02042c;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.payBox .coupon-block .card {
+  font-size: 0;
+}
+.payBox .coupon-block .card input#coupon {
+  width: 358px;
+  height: 46px;
+  box-shadow: none;
+  border: 1px solid #e1e8ef;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.payBox .coupon-block .card input#coupon:focus {
+  border-color: #108df9;
+}
+.payBox .coupon-block .card .use_now {
+  display: inline-block;
+  width: 120px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  background: #006fff82;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.payBox .coupon-block .card .use_now.can {
+  background: #006fff;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.payBox .coupon-block .card .errorTip {
+  display: none;
+  margin-left: 10px;
+  color: #d81e06;
+  font-size: 12px;
+}
+.payBox .coupon-block .card .errorTip img {
+  vertical-align: sub;
+  margin-right: 6px;
+}
+.payBox .pay-block {
+  margin-top: 30px;
+}
+.payBox .pay-block .head img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.payBox .pay-block .head .label-t {
+  font-size: 16px;
+  color: #02042c;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.payBox .pay-block .clearfix2 {
+  margin-top: 26px;
+}
+.payBox .pay-block .clearfix2 .payType .select {
+  line-height: 48px;
+  background: url("../image/select.png") no-repeat;
+  background-size: 100% 100%;
+  border-image-slice: 1;
+  background-color: #fff;
+}
+.payBox .pay-block .clearfix2 .union-popover {
+  position: relative;
+  cursor: default;
+}
+.payBox .pay-block .clearfix2 .union-popover:hover .union-popover-box {
+  display: block;
+}
+.payBox .pay-block .clearfix2 .union-popover .union-popover-box {
+  position: absolute;
+  padding: 20px;
+  z-index: 100;
+  font-size: 12px;
+  display: none;
+  border-radius: 4px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-range:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 40px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-range:hover > p {
+  color: #0c368a;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-range .union-popover-box {
+  left: 50%;
+  width: 180px;
+  height: 180px;
+  margin-left: -90px;
+  background: url("../image/bg-popover-range.png") no-repeat right bottom;
+  background-color: #f6f9ff;
+  border: 1px solid #e6eeff;
+  top: 38px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-range .union-popover-box h1 {
+  font-size: 17px;
+  color: #333333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-range .union-popover-box p {
+  color: #a9a9a9;
+  font-size: 12px;
+  line-height: 18px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-range .union-popover-box:before,
+.payBox .pay-block .clearfix2 .union-popover.pp-range .union-popover-box:after {
+  position: absolute;
+  content: "";
+  border: 8px solid transparent;
+  border-bottom: 8px solid #e6eeff;
+  top: -16px;
+  left: 50%;
+  margin-left: -8px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-range .union-popover-box:after {
+  top: -15px;
+  border-bottom: 10px solid #f6f9ff;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu .iconfont.icon-wangwang {
+  font-size: 20px;
+  vertical-align: middle;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu .triangle {
+  display: inline-block;
+  border: 4px solid transparent;
+  border-top: 6px solid #8a8a8a;
+  vertical-align: middle;
+  transition: 0.4s;
+  transform-origin: 50% 30%;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu:hover .iconfont.icon-wangwang {
+  font-size: 20px;
+  color: #0d81fc;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu:hover .triangle {
+  border-top: 6px solid #0d81fc;
+  transform: rotate(180deg);
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 40px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu .union-popover-box {
+  left: 50%;
+  top: 56px;
+  width: 220px;
+  margin-left: -110px;
+  background: url("../image/bg-popover-kefu.png") no-repeat right bottom;
+  background-color: #ffffff;
+  border: 1px solid #fbded7;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu .union-popover-box dl dt,
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu .union-popover-box dl dd {
+  float: left;
+  line-height: 24px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu .union-popover-box dl dt {
+  width: 40%;
+  color: #333333;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu .union-popover-box dl dd {
+  width: 60%;
+  color: #999999;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu .union-popover-box dl a {
+  color: #0864c1;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu .union-popover-box:before,
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu .union-popover-box:after {
+  position: absolute;
+  content: "";
+  border: 8px solid transparent;
+  border-bottom: 8px solid #fbded7;
+  top: -16px;
+  left: 50%;
+  margin-left: -8px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu .union-popover-box:after {
+  top: -15px;
+  border-bottom: 10px solid #ffffff;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu2 .triangle {
+  display: inline-block;
+  border: 4px solid transparent;
+  border-top: 6px solid #8a8a8a;
+  margin-left: 6px;
+  vertical-align: middle;
+  transition: 0.4s;
+  transform-origin: 50% 30%;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu2:hover .triangle {
+  transform: rotate(180deg);
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu2:after {
+  content: '';
+  position: absolute;
+  left: -34px;
+  top: 0;
+  width: 100%;
+  height: 40px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu2 .union-popover-box {
+  right: 60px;
+  top: -20px;
+  width: 230px;
+  background: url("../image/bg-popover-kefu.png") no-repeat right bottom;
+  background-color: #ffffff;
+  border: 1px solid #fbded7;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu2 .union-popover-box dl dt,
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu2 .union-popover-box dl dd {
+  float: left;
+  line-height: 24px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu2 .union-popover-box dl dt {
+  width: 40%;
+  color: #333333;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu2 .union-popover-box dl dd {
+  width: 60%;
+  color: #999999;
+  text-align: left;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu2 .union-popover-box dl a {
+  color: #0864c1;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu2 .union-popover-box:before,
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu2 .union-popover-box:after {
+  position: absolute;
+  content: "";
+  border: 8px solid transparent;
+  border-left: 8px solid #fbded7;
+  top: 28px;
+  right: -17px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-kefu2 .union-popover-box:after {
+  right: -16px;
+  border-left: 10px solid #ffffff;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-version-wenhao:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 40px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-version-wenhao .union-popover-box {
+  padding: 10px 12px;
+  width: 200px;
+  height: 30px;
+  background-color: #404040;
+  color: #ffffff;
+  border-radius: 4px;
+  left: 25px;
+  top: -5px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-version-wenhao .union-popover-box:before,
+.payBox .pay-block .clearfix2 .union-popover.pp-version-wenhao .union-popover-box:after {
+  position: absolute;
+  content: "";
+  border: 8px solid transparent;
+  border-right: 8px solid #404040;
+  top: 50%;
+  left: -12px;
+  margin-top: -8px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-pay-wenhao:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 40px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-pay-wenhao .union-popover-box {
+  padding: 0;
+  left: 50%;
+  bottom: 28px;
+  margin-left: -172px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-query-bind > p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  font-size: 12px;
+  color: #999999;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-query-bind > p.sc-ac {
+  font-size: 16px;
+  color: #50b674;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-query-bind > p.green {
+  color: #50b674;
+  font-weight: bold;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-query-bind:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 40px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-query-bind .union-popover-box {
+  width: 250px;
+  padding: 8px;
+  background-color: #ffffff;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  left: -60px;
+  bottom: 36px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-query-bind .union-popover-box:before,
+.payBox .pay-block .clearfix2 .union-popover.pp-query-bind .union-popover-box:after {
+  position: absolute;
+  content: "";
+  border: 8px solid transparent;
+  border-top: 8px solid #efefef;
+  bottom: -16px;
+  left: 50%;
+  margin-left: -8px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-query-bind .union-popover-box:after {
+  bottom: -14px;
+  border-top: 8px solid #ffffff;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-query-fail:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 40px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-query-fail .union-popover-box {
+  padding: 0;
+  width: 200px;
+  background-color: #404040;
+  color: #ffffff;
+  border-radius: 4px;
+  text-align: left;
+  padding-left: 10px;
+  bottom: 42px;
+  left: 50%;
+  margin-left: -100px;
+}
+.payBox .pay-block .clearfix2 .union-popover.pp-query-fail .union-popover-box:before,
+.payBox .pay-block .clearfix2 .union-popover.pp-query-fail .union-popover-box:after {
+  position: absolute;
+  content: "";
+  border: 8px solid transparent;
+  border-top: 8px solid #404040;
+  left: 50%;
+  bottom: -12px;
+  margin-left: -8px;
+}
+.payBox .pay-block .clearfix2 .tbPay .app-pay-coupon {
+  width: 576px;
+  border: 1px solid #e6e5e5;
+  border-radius: 4px;
+}
+.payBox .pay-block .clearfix2 .tbPay .app-pay-coupon .clearfix.pay-version {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 26px;
+}
+.payBox .pay-block .clearfix2 .tbPay .app-pay-coupon ul.ul-order {
+  width: 100%;
+  padding-right: 20px;
+  font-size: 12px;
+  height: 50px;
+  line-height: 50px;
+  color: #929292;
+  padding-left: 10px;
+}
+.payBox .pay-block .clearfix2 .tbPay .app-pay-coupon ul.ul-order li {
+  display: inline-block;
+  padding-left: 15px;
+}
+.payBox .pay-block .clearfix2 .tbPay .app-pay-coupon ul.ul-order li i {
+  font-style: normal;
+  padding: 0 8px;
+}
+.payBox .pay-block .clearfix2 .tbPay .app-pay-coupon form.form-order {
+  font-size: 12px;
+  padding-bottom: 26px;
+  padding-left: 10px;
+}
+.payBox .pay-block .clearfix2 .tbPay .app-pay-coupon form.form-order .col-xs-2,
+.payBox .pay-block .clearfix2 .tbPay .app-pay-coupon form.form-order .col-xs-4 {
+  color: #999999;
+  line-height: 32px;
+  padding-right: 0;
+  font-weight: initial;
+}
+.payBox .pay-block .clearfix2 .tbPay .app-pay-coupon form.form-order .col-xs-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.payBox .pay-block .clearfix2 .tbPay .app-pay-coupon form.form-order .col-xs-6 > input {
+  height: 32px;
+  line-height: 32px;
+  box-shadow: none;
+  background: #f9fbff;
+}
+.payBox .pay-block .clearfix2 .tbPay .app-pay-coupon button {
+  font-size: 14px;
+  color: #fff;
+  border-radius: 4px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  outline: none;
+  border: none;
+  height: 40px;
+  line-height: 40px;
+  min-width: 138px;
+  background-color: #1091ff;
+  margin-left: 15px;
+}
+.payBox .pay-block .clearfix2 .tbPay .pay-version .pull-right a {
+  padding: 8px 18px;
+  background-color: #ff8400;
+  color: #ffffff;
+  border-radius: 16px;
+  font-size: 12px;
+  line-height: 50px;
+  margin-right: 10px;
+}
+.payBox .pay-block .clearfix2 .btn-block a {
+  text-decoration: none;
+}
+.payBox .pay-block .clearfix2 .btn-block .back {
+  display: inline-block;
+  width: 160px;
+  height: 46px;
+  line-height: 46px;
+  background: #f1f4f8;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  color: #5e6582;
+  font-size: 16px;
+}
+.payBox .pay-block .clearfix2 .btn-block .verifyPayment {
+  display: inline-block;
+  width: 160px;
+  height: 46px;
+  line-height: 46px;
+  background: linear-gradient(90deg, #0f8df9, #0f8df9);
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 14px;
+  opacity: 0.7;
+}
+.payBox .pay-block .clearfix2 .btn-block .verifyPayment.ok {
+  opacity: 1;
+}
+.payBox .pay-block .payType {
+  color: #545454;
+  font-size: 14px;
+  margin-right: 40px;
+  user-select: none;
+}
+.payBox .pay-block .payType > div {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.payBox .pay-block .payType img {
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+.payBox .pay-block .payType span {
+  width: 80px;
+  display: inline-block;
+  text-align: left;
+  margin-left: 10px;
+}
+.payBox .pay-block .payType:after {
+  content: '';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.payBox .pay-block pay-box {
+  overflow: hidden;
+}
+.payBox .pay-block .code {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 40px 60px 40px 40px;
+  background: url("../image/code_bg.png") no-repeat;
+  background-size: 100% 100%;
+  min-width: 576px;
+}
+.payBox .pay-block .code .tips {
+  position: absolute;
+  width: 100%;
+  left: 4px;
+  color: #333333;
+  font-size: 12px;
+  bottom: -24px;
+}
+.payBox .pay-block .code .codeER {
+  background: url("../image/codeERbg.png") no-repeat;
+  width: 169px;
+  height: 169px;
+  padding: 18px;
+  position: relative;
+}
+.payBox .pay-block .code .qrCodeBlock {
+  position: absolute;
+  z-index: 2;
+  width: 135px;
+  height: 135px;
+  top: 18px;
+  left: 18px;
+}
+.payBox .pay-block .code .qrCodeBlock img {
+  width: 100%;
+}
+.payBox .pay-block .code .load {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  z-index: 1;
+}
+.payBox .pay-block .code .load img {
+  width: 135px;
+  height: 135px;
+}
+.payBox .pay-block .code .mask {
+  backdrop-filter: blur(2px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding-top: 47px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 2;
+}
+.payBox .pay-block .code .mask p {
+  line-height: 30px;
+  font-size: 18px;
+  color: #fff;
+}
+.payBox .pay-block .titlesRight {
+  padding-left: 30px;
+}
+.payBox .pay-block .titlesRight .amount {
+  color: #545454;
+  font-size: 14px;
+}
+.payBox .pay-block .titlesRight .amount span {
+  font-weight: bold;
+  font-size: 36px;
+  color: #0090ff;
+}
+.payBox .pay-block .titlesRight .amount b {
+  color: #0090ff;
+  font-size: 18px;
+  margin-left: 16px;
+}
+.payBox .pay-block .titlesRight .payTypes {
+  height: 30px;
+  line-height: 30px;
+  color: #333333;
+  font-size: 12px;
+}
+.payBox .pay-block .titlesRight .payTypes img {
+  width: 20px;
+  height: 20px;
+}
+.payBox .pay-block .auxiliary {
+  color: #999999;
+  font-size: 12px;
+  margin-top: 10px;
+  user-select: none;
+  background-color: #f1f4f8;
+  display: inline-block;
+  padding: 12px 12px;
+  border-radius: 4px;
+}
+.payBox .pay-block .auxiliary .p-1 {
+  margin-bottom: 6px;
+}
+.payBox .pay-block .auxiliary .copy {
+  color: #ff5400;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 4px;
+}
+.payBox .pay-block .auxiliary .next {
+  color: #008fff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.payBox .pay-block .auxiliary .p-grey {
+  color: #494949;
+}
+.payBox .pay-block .auxiliary .s-1 {
+  letter-spacing: 12px;
+}
+.payBox .pay-block .auxiliary .tips-T {
+  color: #9196a7;
+  margin-top: 20px;
+}
+.payBox .pay-block .auxiliary > .next:hover {
+  color: #3fa4f1;
+}
+.payBox .pay-block .tips-T {
+  color: #82858d;
+  margin-top: 20px;
+}
+.payBox .pay-block .tipsBox {
+  margin-top: 20px;
+  font-size: 14px;
+  display: none;
+}
+.payBox .pay-block .tipsBox .typeTips {
+  display: inline-block;
+  color: #4c4c4c !important;
+}
+.payBox .pay-block .tipsBox .typeTips img {
+  margin-right: 4px;
+}
+.payBox .pay-block .tipsBox .typeTips span {
+  margin-left: 4px;
+}
+.payBox .pay-block .tipsDiv {
+  position: absolute;
+  top: 20px;
+  cursor: pointer;
+}
+.payBox .pay-block .tipsDiv img {
+  width: 14px;
+  height: 14px;
+}
+.payBox .pay-block .tipsDiv:hover div {
+  display: block;
+}
+.payBox .pay-block .tipsDiv div {
+  position: absolute;
+  left: 24px;
+  top: -2px;
+  width: 180px;
+  color: #a2a0a0;
+  display: none;
+  font-size: 12px;
+}
+.payBox .pay-block .tipsDiv {
+  position: absolute;
+  top: 20px;
+  cursor: pointer;
+}
+.payBox .pay-block .tipsDiv img {
+  width: 14px;
+  height: 14px;
+}
+.payBox .pay-block .tipsDiv:hover div {
+  display: block;
+}
+.payBox .pay-block .tipsDiv div {
+  position: absolute;
+  left: 24px;
+  top: -2px;
+  width: 180px;
+  color: #a2a0a0;
+  display: none;
+  font-size: 12px;
+}
+.payBox .pay-block .tipsDiv2 {
+  position: absolute;
+  top: 10px;
+}
+.payBox .pay-block .tipsDiv2 img {
+  width: 14px;
+  height: 14px;
+}
+.payBox .pay-block .tipsDiv2 div {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  width: 160px;
+  color: #a2a0a0;
+  font-size: 12px;
+}
+.coupon_pop {
+  width: 402px;
+  height: 232px;
+  background: #fff;
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  margin-top: -101px;
+  margin-left: -201px;
+  border-radius: 12px;
+  display: none;
+}
+.coupon_pop #copyInput {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.coupon_pop .pop_top {
+  height: 46px;
+  border-bottom: 1px solid #dddddd;
+  padding: 0 22px;
+}
+.coupon_pop .pop_top .pop_title {
+  float: left;
+  font-size: 18px;
+  color: #252525;
+  line-height: 46px;
+}
+.coupon_pop .pop_top img {
+  width: 14px;
+  vertical-align: middle;
+  float: right;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.coupon_pop .pop_cont .p1 {
+  color: #006dff;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.coupon_pop .pop_cont .back_block {
+  width: 320px;
+  height: 60px;
+  background: #f0f6ff;
+  margin: 0 auto;
+  padding: 12px 0;
+}
+.coupon_pop .pop_cont .back_block .p2 {
+  color: #333333;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+.coupon_pop .pop_cont .back_block .p2 .orderId_pop {
+  margin-left: 4px;
+}
+.coupon_pop .pop_cont .back_block .p2 span.copy_pop {
+  color: #005fdd;
+  text-decoration: underline;
+  margin-left: 6px;
+  cursor: pointer;
+}
+.coupon_pop .pop_cont .back_block .p3 {
+  color: #5d5d5d;
+  text-align: center;
+  font-size: 12px;
+}
+.coupon_pop .pop_bottom {
+  height: 66px;
+  padding: 16px 136px 0;
+}
+.coupon_pop .pop_bottom .cancel_btn {
+  width: 60px;
+  height: 34px;
+  background: #f2f2f2;
+  color: #777777;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 34px;
+  float: left;
+  cursor: pointer;
+}
+.coupon_pop .pop_bottom .cancel_btn:hover {
+  background: #e5e5e5;
+}
+.coupon_pop .pop_bottom .cancel_btn:active {
+  background: #d3d3d3;
+}
+.coupon_pop .pop_bottom .determine_btn {
+  width: 60px;
+  height: 34px;
+  background: #006dff;
+  color: #ffffff;
+  border-radius: 6px;
+  float: left;
+  font-size: 14px;
+  text-align: center;
+  line-height: 34px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.coupon_pop .pop_bottom .determine_btn:hover {
+  background: #0261df;
+}
+.coupon_pop .pop_bottom .determine_btn:active {
+  background: #0458c9;
+}
+.mask_body {
+  position: fixed;
+  background: #000;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  display: none;
+}
+/*# sourceMappingURL=index.css.map */

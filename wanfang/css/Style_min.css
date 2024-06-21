@@ -1,0 +1,156 @@
+@media screen and (max-width: 1200px) {
+    .header-nav {
+        margin: auto 4%
+    }
+
+    .header-nav .nav-button li {
+        margin-left: 40px;
+    }
+
+    .viewA-content-right {
+        right: 2.9%;
+    }
+
+    .viewA-content-left {
+        left: 4%;
+    }
+
+    .swipe-view-b .view-B-box {
+        margin: auto 4%;
+    }
+
+    .viewB-item {
+        width: 23.67%;
+    }
+
+    .viewB1-item-top,
+    .viewB2-item-top,
+    .viewB3-item-top,
+    .viewB4-item-top {
+        width: 100%;
+    }
+
+    .itemB1-top-t,
+    .itemB2-top-t,
+    .itemB3-top-t,
+    .itemB4-top-t {
+        width: 67.6%;
+        margin-left: -33.8%;
+        font-size: 24px;
+    }
+
+    .itemB1-top-b,
+    .itemB2-top-b,
+    .itemB3-top-b,
+    .itemB4-top-b {
+        font-size: 24px;
+        margin-left: -57.5px;
+    }
+
+    .itemB1-bottom-t,
+    .itemB2-bottom-t,
+    .itemB3-bottom-t,
+    .itemB4-bottom-t {
+        font-size: 16px;
+    }
+
+    .B1-bottomBtn,
+    .B2-bottomBtn,
+    .B3-bottomBtn,
+    .B4-bottomBtn {
+        font-size: 16px;
+    }
+
+    .viewC-box {
+        margin: auto 4%;
+        position: relative;
+    }
+
+    .viewC-right {
+        width: 197px;
+        margin-left: 30px;
+    }
+
+    .btn_txt {
+        font-size: 15px;
+    }
+    .footerBox{
+        margin: auto 4%;
+    }
+    .footi-l{
+        left: 0;
+    }
+    .foot-l, .foot-r{
+        width: 224px;
+    }
+    .foot-c{
+        left: 198px;
+    }
+    .foot-r{
+        left: 736px;
+    }
+    .footi-r{
+        right: -42px;
+    }
+}
+
+@media screen and (max-width:1175px) {
+    .viewC-banner {
+        float: none;
+        float: none;
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        margin-left: -419px;
+    }
+
+    .viewC-right {
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .right_re {
+        position: relative;
+    }
+
+    .viewC-fbtn {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -130px;
+    }
+
+    .viewC-fbtn-item {
+        display: inline-block;
+    }
+
+    .btn_txt {
+        display: none;
+    }
+
+    .viewC-fbtn-item {
+        width: 80px;
+    }
+
+    .btn_logo {
+        left: 22px;
+    }
+
+    .viewC-title-tips {
+        position: absolute;
+        top: 66px;
+        left: 50px;
+    }
+
+    .viewC-title {
+        position: absolute;
+        top: 26px;
+        left: 50px;
+    }
+
+    a.openNew {
+        position: absolute;
+        left: 77%;
+        top: 22px;
+    }
+}
